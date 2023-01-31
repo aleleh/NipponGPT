@@ -62,7 +62,7 @@ async function sendMessage() {
 // Function to send the request to the OpenAI API
 async function getResponseFromAPI(input) {
   // Replace "YOUR_API_KEY" with your actual API key
-  const apiKey = "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";
+  const apiKey = "YOUR_API_KEY";
   try {
     const response = await fetch("https://api.openai.com/v1/engines/text-davinci-003/completions", {
       method: "POST",
